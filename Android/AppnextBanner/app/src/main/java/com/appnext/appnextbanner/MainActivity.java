@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		appnextAPI = new AppnextAPI(this, "e04e7c03-cda3-487f-ae1e-41ab1ffb8477");
+		appnextAPI = new AppnextAPI(this, "434d8d61-a90c-44e3-b3c5-c0254c06b721");
 		appnextAPI.setAdListener(new AppnextAPI.AppnextAdListener() {
 			@Override
 			public void onAdsLoaded(ArrayList<AppnextAd> arrayList) {

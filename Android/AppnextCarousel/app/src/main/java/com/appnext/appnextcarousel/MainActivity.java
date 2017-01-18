@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements IAppnextAds {
 			}
 		});
 
-		appnextAPI = new AppnextAPI(this, "e04e7c03-cda3-487f-ae1e-41ab1ffb8477");
+		appnextAPI = new AppnextAPI(this, "66854269-5a17-4b9b-a381-0c35fa0ec4e7");
 		appnextAPI.setAdListener(new AppnextAPI.AppnextAdListener() {
 			@Override
 			public void onAdsLoaded(ArrayList<AppnextAd> arrayList) {
