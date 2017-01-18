@@ -13,14 +13,19 @@ With a growing community of over 40,000 developers and 500M users worldwide, weâ
 
 
 ## Examples
+### General
 This GitHub page will present examples of Native Ads usage created by the Appnext development team. You can use these examples to understand how to use our Native Ads API.
 
 - Android Display banner 320x50 example - `Android/AppnextBanner`
 - Android Carousel example - `Android/AppnextCarousel`
 - iOS examples are coming soon
 
+###Guidelines
+- If you're cloning one of the Android examples as is, don't forget to clear your Gradle cache
+- Generic Placement IDs are in use, don't forget to add your own placement IDs as defined in the Appnext self-service after you sign up
+
 ## Join us now! ##
-Use the Native Ads SDK and start generating revenue Join now.
+Use the Native Ads SDK and start generating revenue. Join now!
 
 For more SDK & Integration information & Support, please refer to [http://www.appnext.com](http://www.appnext.com)  or contact the Appnext support team at Support@appnext.com 
 
