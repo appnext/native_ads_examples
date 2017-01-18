@@ -27,6 +27,12 @@ This GitHub page will present examples of Native Ads usage created by the Appnex
 ## Join us now! ##
 Use the Native Ads SDK and start generating revenue. Join now!
 
-For more SDK & Integration information & Support, please refer to [http://www.appnext.com](http://www.appnext.com)  or contact the Appnext support team at Support@appnext.com 
+For more SDK & Integration information & Support, please refer to [http://www.appnext.com](http://www.appnext.com)  or contact the Appnext support team at Support@appnext.com
+
+##Legal
+Using the example code in the repository is subject to Appnext terms of use and privacy policy ([link](http://www.appnext.com/policy.html)) 
+
+
+
 
 
