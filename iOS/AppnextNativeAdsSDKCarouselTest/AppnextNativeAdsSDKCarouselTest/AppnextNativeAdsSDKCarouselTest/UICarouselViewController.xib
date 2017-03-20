@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UICarouselViewController">
+            <connections>
+                <outlet property="carouselView" destination="1Wi-G0-XWS" id="BXK-6o-3tL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Wi-G0-XWS" customClass="AppnextNativeAdsCarouselViewExample">
+                    <rect key="frame" x="0.0" y="70" width="600" height="530"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="1Wi-G0-XWS" secondAttribute="bottom" id="75s-ly-aPx"/>
+                <constraint firstItem="1Wi-G0-XWS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="LqS-ne-P7P"/>
+                <constraint firstItem="1Wi-G0-XWS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="j3O-Sd-fZu"/>
+                <constraint firstAttribute="trailing" secondItem="1Wi-G0-XWS" secondAttribute="trailing" id="zpW-ob-OIM"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

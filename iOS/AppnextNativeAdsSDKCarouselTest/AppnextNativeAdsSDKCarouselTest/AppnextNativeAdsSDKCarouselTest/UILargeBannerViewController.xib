@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UILargeBannerViewController">
+            <connections>
+                <outlet property="bannerView" destination="MXh-tW-bY3" id="H80-cO-a3W"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQ1-pT-ohe">
+                    <rect key="frame" x="240" y="70" width="120" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="GIx-9e-rQK"/>
+                        <constraint firstAttribute="width" constant="120" id="qeQ-nO-JoL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <state key="normal" title="Load Ad"/>
+                    <connections>
+                        <action selector="loadAd:" destination="-1" eventType="touchUpInside" id="vcz-00-yXb"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MXh-tW-bY3" customClass="AppnextUILargeBannerViewExample">
+                    <rect key="frame" x="150" y="120" width="300" height="250"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="Atc-Jq-yFy"/>
+                        <constraint firstAttribute="width" constant="300" id="M8C-P0-9H9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="MXh-tW-bY3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6cD-F2-bbe"/>
+                <constraint firstItem="qQ1-pT-ohe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ACa-dM-SDn"/>
+                <constraint firstItem="MXh-tW-bY3" firstAttribute="top" secondItem="qQ1-pT-ohe" secondAttribute="bottom" constant="20" id="Afy-d7-V0q"/>
+                <constraint firstItem="qQ1-pT-ohe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="jYh-k3-ZkA"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

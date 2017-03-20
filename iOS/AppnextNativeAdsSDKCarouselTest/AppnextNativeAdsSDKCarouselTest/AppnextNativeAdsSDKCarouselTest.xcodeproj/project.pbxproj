@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C0BCA251E2E5F5A009945CD /* UIMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BCA231E2E5F5A009945CD /* UIMainViewController.m */; };
+		3C0BCA261E2E5F5A009945CD /* UIMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0BCA241E2E5F5A009945CD /* UIMainViewController.xib */; };
+		3C0BCA2A1E2E6306009945CD /* UILargeBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BCA281E2E6306009945CD /* UILargeBannerViewController.m */; };
+		3C0BCA2B1E2E6306009945CD /* UILargeBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0BCA291E2E6306009945CD /* UILargeBannerViewController.xib */; };
+		3C0BCA2F1E2E63BA009945CD /* UICarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BCA2D1E2E63BA009945CD /* UICarouselViewController.m */; };
+		3C0BCA301E2E63BA009945CD /* UICarouselViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0BCA2E1E2E63BA009945CD /* UICarouselViewController.xib */; };
+		3C0BCA341E2E672B009945CD /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BCA331E2E672B009945CD /* UIView+Toast.m */; };
+		3C43963D1E38DA6600175199 /* libAppnextNativeAdsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C43963B1E38DA6600175199 /* libAppnextNativeAdsSDK.a */; };
+		3C43963E1E38DA6600175199 /* libAppnextSDKCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C43963C1E38DA6600175199 /* libAppnextSDKCore.a */; };
+		3C658B801E27657800CB7AF9 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B7F1E27657800CB7AF9 /* libSDWebImage.a */; };
+		3C658B831E2765EF00CB7AF9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B821E2765EF00CB7AF9 /* ImageIO.framework */; };
+		3C658B851E2765FA00CB7AF9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B841E2765FA00CB7AF9 /* CoreTelephony.framework */; };
+		3C658B871E27660200CB7AF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B861E27660200CB7AF9 /* UIKit.framework */; };
+		3C658B891E27660900CB7AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B881E27660900CB7AF9 /* Foundation.framework */; };
+		3C658B8B1E27661400CB7AF9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B8A1E27661400CB7AF9 /* AdSupport.framework */; };
+		3C658B8D1E27663600CB7AF9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B8C1E27663600CB7AF9 /* SystemConfiguration.framework */; };
+		3C658B8F1E27663E00CB7AF9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B8E1E27663E00CB7AF9 /* AVFoundation.framework */; };
+		3C658B911E27665000CB7AF9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B901E27665000CB7AF9 /* Security.framework */; };
+		3C658B931E27670500CB7AF9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B921E27670500CB7AF9 /* CFNetwork.framework */; };
+		3C658B951E27674500CB7AF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B941E27674500CB7AF9 /* CoreGraphics.framework */; };
+		3C658B971E27674C00CB7AF9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B961E27674C00CB7AF9 /* CoreMedia.framework */; };
+		3C658B991E27675300CB7AF9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B981E27675300CB7AF9 /* MobileCoreServices.framework */; };
+		3C658B9B1E27675A00CB7AF9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658B9A1E27675A00CB7AF9 /* QuartzCore.framework */; };
+		3C658B9F1E2770D600CB7AF9 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C658B9E1E2770D600CB7AF9 /* iCarousel.m */; };
+		3C658BA91E279C9E00CB7AF9 /* AppnextUILargeBannerViewExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C658BA81E279C9E00CB7AF9 /* AppnextUILargeBannerViewExample.m */; };
+		3C658BB01E27C15E00CB7AF9 /* AppnextUIMoviePlayerControllerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C658BAD1E27C15E00CB7AF9 /* AppnextUIMoviePlayerControllerExample.m */; };
+		3C658BB11E27C15E00CB7AF9 /* AppnextUIMoviePlayerControlsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C658BAF1E27C15E00CB7AF9 /* AppnextUIMoviePlayerControlsExample.m */; };
+		3C658BB31E27C17B00CB7AF9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C658BB21E27C17B00CB7AF9 /* MediaPlayer.framework */; };
+		3C68FAE11E266D26006CBF89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C68FAE01E266D26006CBF89 /* main.m */; };
+		3C68FAE41E266D26006CBF89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C68FAE31E266D26006CBF89 /* AppDelegate.m */; };
+		3C68FAEC1E266D26006CBF89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C68FAEB1E266D26006CBF89 /* Assets.xcassets */; };
+		3C68FAEF1E266D26006CBF89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C68FAED1E266D26006CBF89 /* LaunchScreen.storyboard */; };
+		3C6A5FA91E2CBD8B0031AFF0 /* AppnextExampleUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A5FA81E2CBD8B0031AFF0 /* AppnextExampleUtils.m */; };
+		3C9AFEFB1E2F9949002FF97B /* AppnextNativeAdsCarouselViewExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9AFEFA1E2F9949002FF97B /* AppnextNativeAdsCarouselViewExample.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C0BCA221E2E5F5A009945CD /* UIMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMainViewController.h; sourceTree = "<group>"; };
+		3C0BCA231E2E5F5A009945CD /* UIMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMainViewController.m; sourceTree = "<group>"; };
+		3C0BCA241E2E5F5A009945CD /* UIMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIMainViewController.xib; sourceTree = "<group>"; };
+		3C0BCA271E2E6306009945CD /* UILargeBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILargeBannerViewController.h; sourceTree = "<group>"; };
+		3C0BCA281E2E6306009945CD /* UILargeBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILargeBannerViewController.m; sourceTree = "<group>"; };
+		3C0BCA291E2E6306009945CD /* UILargeBannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UILargeBannerViewController.xib; sourceTree = "<group>"; };
+		3C0BCA2C1E2E63BA009945CD /* UICarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICarouselViewController.h; sourceTree = "<group>"; };
+		3C0BCA2D1E2E63BA009945CD /* UICarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICarouselViewController.m; sourceTree = "<group>"; };
+		3C0BCA2E1E2E63BA009945CD /* UICarouselViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UICarouselViewController.xib; sourceTree = "<group>"; };
+		3C0BCA321E2E672B009945CD /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		3C0BCA331E2E672B009945CD /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		3C4396311E38DA6600175199 /* AppnextNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextNativeAd.h; sourceTree = "<group>"; };
+		3C4396321E38DA6600175199 /* AppnextNativeAdsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextNativeAdsRequest.h; sourceTree = "<group>"; };
+		3C4396331E38DA6600175199 /* AppnextNativeAdsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextNativeAdsSDK.h; sourceTree = "<group>"; };
+		3C4396341E38DA6600175199 /* AppnextNativeAdsSDKApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextNativeAdsSDKApi.h; sourceTree = "<group>"; };
+		3C4396361E38DA6600175199 /* AppnextAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextAd.h; sourceTree = "<group>"; };
+		3C4396371E38DA6600175199 /* AppnextAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextAdConfiguration.h; sourceTree = "<group>"; };
+		3C4396381E38DA6600175199 /* AppnextAdData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextAdData.h; sourceTree = "<group>"; };
+		3C4396391E38DA6600175199 /* AppnextSDKCoreApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextSDKCoreApi.h; sourceTree = "<group>"; };
+		3C43963A1E38DA6600175199 /* AppnextSDKCorePublicDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextSDKCorePublicDefs.h; sourceTree = "<group>"; };
+		3C43963B1E38DA6600175199 /* libAppnextNativeAdsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextNativeAdsSDK.a; sourceTree = "<group>"; };
+		3C43963C1E38DA6600175199 /* libAppnextSDKCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextSDKCore.a; sourceTree = "<group>"; };
+		3C658B741E27657800CB7AF9 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		3C658B751E27657800CB7AF9 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		3C658B761E27657800CB7AF9 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		3C658B771E27657800CB7AF9 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		3C658B781E27657800CB7AF9 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		3C658B791E27657800CB7AF9 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		3C658B7A1E27657800CB7AF9 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		3C658B7B1E27657800CB7AF9 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		3C658B7C1E27657800CB7AF9 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		3C658B7D1E27657800CB7AF9 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		3C658B7E1E27657800CB7AF9 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		3C658B7F1E27657800CB7AF9 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDWebImage.a; sourceTree = "<group>"; };
+		3C658B821E2765EF00CB7AF9 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		3C658B841E2765FA00CB7AF9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3C658B861E27660200CB7AF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C658B881E27660900CB7AF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C658B8A1E27661400CB7AF9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3C658B8C1E27663600CB7AF9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3C658B8E1E27663E00CB7AF9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3C658B901E27665000CB7AF9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3C658B921E27670500CB7AF9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3C658B941E27674500CB7AF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C658B961E27674C00CB7AF9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3C658B981E27675300CB7AF9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3C658B9A1E27675A00CB7AF9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3C658B9D1E2770D600CB7AF9 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		3C658B9E1E2770D600CB7AF9 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		3C658BA71E279C9E00CB7AF9 /* AppnextUILargeBannerViewExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextUILargeBannerViewExample.h; path = AppnextNativeAdsSDKCarouselTest/AppnextUILargeBannerViewExample.h; sourceTree = "<group>"; };
+		3C658BA81E279C9E00CB7AF9 /* AppnextUILargeBannerViewExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppnextUILargeBannerViewExample.m; path = AppnextNativeAdsSDKCarouselTest/AppnextUILargeBannerViewExample.m; sourceTree = "<group>"; };
+		3C658BAC1E27C15E00CB7AF9 /* AppnextUIMoviePlayerControllerExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextUIMoviePlayerControllerExample.h; path = AppnextNativeAdsSDKCarouselTest/AppnextUIMoviePlayerControllerExample.h; sourceTree = "<group>"; };
+		3C658BAD1E27C15E00CB7AF9 /* AppnextUIMoviePlayerControllerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppnextUIMoviePlayerControllerExample.m; path = AppnextNativeAdsSDKCarouselTest/AppnextUIMoviePlayerControllerExample.m; sourceTree = "<group>"; };
+		3C658BAE1E27C15E00CB7AF9 /* AppnextUIMoviePlayerControlsExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextUIMoviePlayerControlsExample.h; path = AppnextNativeAdsSDKCarouselTest/AppnextUIMoviePlayerControlsExample.h; sourceTree = "<group>"; };
+		3C658BAF1E27C15E00CB7AF9 /* AppnextUIMoviePlayerControlsExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppnextUIMoviePlayerControlsExample.m; path = AppnextNativeAdsSDKCarouselTest/AppnextUIMoviePlayerControlsExample.m; sourceTree = "<group>"; };
+		3C658BB21E27C17B00CB7AF9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3C68FADC1E266D26006CBF89 /* AppnextNativeAdsSDKCarouselTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppnextNativeAdsSDKCarouselTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C68FAE01E266D26006CBF89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C68FAE21E266D26006CBF89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C68FAE31E266D26006CBF89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C68FAEB1E266D26006CBF89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C68FAEE1E266D26006CBF89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C68FAF01E266D26006CBF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6A5FA71E2CBD8B0031AFF0 /* AppnextExampleUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextExampleUtils.h; path = AppnextNativeAdsSDKCarouselTest/AppnextExampleUtils.h; sourceTree = "<group>"; };
+		3C6A5FA81E2CBD8B0031AFF0 /* AppnextExampleUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppnextExampleUtils.m; path = AppnextNativeAdsSDKCarouselTest/AppnextExampleUtils.m; sourceTree = "<group>"; };
+		3C9AFEF91E2F9949002FF97B /* AppnextNativeAdsCarouselViewExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextNativeAdsCarouselViewExample.h; path = AppnextNativeAdsSDKCarouselTest/AppnextNativeAdsCarouselViewExample.h; sourceTree = "<group>"; };
+		3C9AFEFA1E2F9949002FF97B /* AppnextNativeAdsCarouselViewExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppnextNativeAdsCarouselViewExample.m; path = AppnextNativeAdsSDKCarouselTest/AppnextNativeAdsCarouselViewExample.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C68FAD91E266D26006CBF89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C658BB31E27C17B00CB7AF9 /* MediaPlayer.framework in Frameworks */,
+				3C658B9B1E27675A00CB7AF9 /* QuartzCore.framework in Frameworks */,
+				3C658B991E27675300CB7AF9 /* MobileCoreServices.framework in Frameworks */,
+				3C658B971E27674C00CB7AF9 /* CoreMedia.framework in Frameworks */,
+				3C658B951E27674500CB7AF9 /* CoreGraphics.framework in Frameworks */,
+				3C658B931E27670500CB7AF9 /* CFNetwork.framework in Frameworks */,
+				3C658B911E27665000CB7AF9 /* Security.framework in Frameworks */,
+				3C658B8F1E27663E00CB7AF9 /* AVFoundation.framework in Frameworks */,
+				3C658B8D1E27663600CB7AF9 /* SystemConfiguration.framework in Frameworks */,
+				3C658B8B1E27661400CB7AF9 /* AdSupport.framework in Frameworks */,
+				3C658B891E27660900CB7AF9 /* Foundation.framework in Frameworks */,
+				3C43963E1E38DA6600175199 /* libAppnextSDKCore.a in Frameworks */,
+				3C658B871E27660200CB7AF9 /* UIKit.framework in Frameworks */,
+				3C658B851E2765FA00CB7AF9 /* CoreTelephony.framework in Frameworks */,
+				3C658B831E2765EF00CB7AF9 /* ImageIO.framework in Frameworks */,
+				3C658B801E27657800CB7AF9 /* libSDWebImage.a in Frameworks */,
+				3C43963D1E38DA6600175199 /* libAppnextNativeAdsSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C43962E1E38DA6600175199 /* AppnextNativeAdsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3C43962F1E38DA6600175199 /* include */,
+				3C43963B1E38DA6600175199 /* libAppnextNativeAdsSDK.a */,
+				3C43963C1E38DA6600175199 /* libAppnextSDKCore.a */,
+			);
+			name = AppnextNativeAdsSDK;
+			path = ../AppnextNativeAdsSDK;
+			sourceTree = "<group>";
+		};
+		3C43962F1E38DA6600175199 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3C4396301E38DA6600175199 /* AppnextNativeAdsSDK */,
+				3C4396351E38DA6600175199 /* AppnextSDKCore */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		3C4396301E38DA6600175199 /* AppnextNativeAdsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3C4396311E38DA6600175199 /* AppnextNativeAd.h */,
+				3C4396321E38DA6600175199 /* AppnextNativeAdsRequest.h */,
+				3C4396331E38DA6600175199 /* AppnextNativeAdsSDK.h */,
+				3C4396341E38DA6600175199 /* AppnextNativeAdsSDKApi.h */,
+			);
+			path = AppnextNativeAdsSDK;
+			sourceTree = "<group>";
+		};
+		3C4396351E38DA6600175199 /* AppnextSDKCore */ = {
+			isa = PBXGroup;
+			children = (
+				3C4396361E38DA6600175199 /* AppnextAd.h */,
+				3C4396371E38DA6600175199 /* AppnextAdConfiguration.h */,
+				3C4396381E38DA6600175199 /* AppnextAdData.h */,
+				3C4396391E38DA6600175199 /* AppnextSDKCoreApi.h */,
+				3C43963A1E38DA6600175199 /* AppnextSDKCorePublicDefs.h */,
+			);
+			path = AppnextSDKCore;
+			sourceTree = "<group>";
+		};
+		3C658B711E27657800CB7AF9 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				3C658B721E27657800CB7AF9 /* include */,
+				3C658B7F1E27657800CB7AF9 /* libSDWebImage.a */,
+			);
+			name = SDWebImage;
+			path = ../ThirdParty/SDWebImage;
+			sourceTree = "<group>";
+		};
+		3C658B721E27657800CB7AF9 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3C658B731E27657800CB7AF9 /* SDWebImage */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		3C658B731E27657800CB7AF9 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				3C658B741E27657800CB7AF9 /* SDImageCache.h */,
+				3C658B751E27657800CB7AF9 /* SDWebImageCompat.h */,
+				3C658B761E27657800CB7AF9 /* SDWebImageDecoder.h */,
+				3C658B771E27657800CB7AF9 /* SDWebImageDownloader.h */,
+				3C658B781E27657800CB7AF9 /* SDWebImageDownloaderOperation.h */,
+				3C658B791E27657800CB7AF9 /* SDWebImageManager.h */,
+				3C658B7A1E27657800CB7AF9 /* SDWebImageOperation.h */,
+				3C658B7B1E27657800CB7AF9 /* SDWebImagePrefetcher.h */,
+				3C658B7C1E27657800CB7AF9 /* UIButton+WebCache.h */,
+				3C658B7D1E27657800CB7AF9 /* UIImageView+HighlightedWebCache.h */,
+				3C658B7E1E27657800CB7AF9 /* UIImageView+WebCache.h */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		3C658B811E27659000CB7AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C658BB21E27C17B00CB7AF9 /* MediaPlayer.framework */,
+				3C658B9A1E27675A00CB7AF9 /* QuartzCore.framework */,
+				3C658B981E27675300CB7AF9 /* MobileCoreServices.framework */,
+				3C658B961E27674C00CB7AF9 /* CoreMedia.framework */,
+				3C658B941E27674500CB7AF9 /* CoreGraphics.framework */,
+				3C658B921E27670500CB7AF9 /* CFNetwork.framework */,
+				3C658B901E27665000CB7AF9 /* Security.framework */,
+				3C658B8E1E27663E00CB7AF9 /* AVFoundation.framework */,
+				3C658B8C1E27663600CB7AF9 /* SystemConfiguration.framework */,
+				3C658B8A1E27661400CB7AF9 /* AdSupport.framework */,
+				3C658B881E27660900CB7AF9 /* Foundation.framework */,
+				3C658B861E27660200CB7AF9 /* UIKit.framework */,
+				3C658B841E2765FA00CB7AF9 /* CoreTelephony.framework */,
+				3C658B821E2765EF00CB7AF9 /* ImageIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C658B9C1E2770D600CB7AF9 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				3C658B9D1E2770D600CB7AF9 /* iCarousel.h */,
+				3C658B9E1E2770D600CB7AF9 /* iCarousel.m */,
+			);
+			name = iCarousel;
+			path = ../ThirdParty/iCarousel/iCarousel;
+			sourceTree = "<group>";
+		};
+		3C658BA01E27878900CB7AF9 /* Large Banner View */ = {
+			isa = PBXGroup;
+			children = (
+				3C6A5FA71E2CBD8B0031AFF0 /* AppnextExampleUtils.h */,
+				3C6A5FA81E2CBD8B0031AFF0 /* AppnextExampleUtils.m */,
+				3C658BAC1E27C15E00CB7AF9 /* AppnextUIMoviePlayerControllerExample.h */,
+				3C658BAD1E27C15E00CB7AF9 /* AppnextUIMoviePlayerControllerExample.m */,
+				3C658BAE1E27C15E00CB7AF9 /* AppnextUIMoviePlayerControlsExample.h */,
+				3C658BAF1E27C15E00CB7AF9 /* AppnextUIMoviePlayerControlsExample.m */,
+				3C658BA71E279C9E00CB7AF9 /* AppnextUILargeBannerViewExample.h */,
+				3C658BA81E279C9E00CB7AF9 /* AppnextUILargeBannerViewExample.m */,
+				3C9AFEF91E2F9949002FF97B /* AppnextNativeAdsCarouselViewExample.h */,
+				3C9AFEFA1E2F9949002FF97B /* AppnextNativeAdsCarouselViewExample.m */,
+			);
+			name = "Large Banner View";
+			sourceTree = "<group>";
+		};
+		3C68FAD31E266D26006CBF89 = {
+			isa = PBXGroup;
+			children = (
+				3C43962E1E38DA6600175199 /* AppnextNativeAdsSDK */,
+				3C658B711E27657800CB7AF9 /* SDWebImage */,
+				3C658B9C1E2770D600CB7AF9 /* iCarousel */,
+				3C658BA01E27878900CB7AF9 /* Large Banner View */,
+				3C68FADE1E266D26006CBF89 /* AppnextNativeAdsSDKCarouselTest */,
+				3C658B811E27659000CB7AF9 /* Frameworks */,
+				3C68FADD1E266D26006CBF89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C68FADD1E266D26006CBF89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C68FADC1E266D26006CBF89 /* AppnextNativeAdsSDKCarouselTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C68FADE1E266D26006CBF89 /* AppnextNativeAdsSDKCarouselTest */ = {
+			isa = PBXGroup;
+			children = (
+				3C0BCA321E2E672B009945CD /* UIView+Toast.h */,
+				3C0BCA331E2E672B009945CD /* UIView+Toast.m */,
+				3C68FAE21E266D26006CBF89 /* AppDelegate.h */,
+				3C68FAE31E266D26006CBF89 /* AppDelegate.m */,
+				3C0BCA221E2E5F5A009945CD /* UIMainViewController.h */,
+				3C0BCA231E2E5F5A009945CD /* UIMainViewController.m */,
+				3C0BCA241E2E5F5A009945CD /* UIMainViewController.xib */,
+				3C0BCA271E2E6306009945CD /* UILargeBannerViewController.h */,
+				3C0BCA281E2E6306009945CD /* UILargeBannerViewController.m */,
+				3C0BCA291E2E6306009945CD /* UILargeBannerViewController.xib */,
+				3C0BCA2C1E2E63BA009945CD /* UICarouselViewController.h */,
+				3C0BCA2D1E2E63BA009945CD /* UICarouselViewController.m */,
+				3C0BCA2E1E2E63BA009945CD /* UICarouselViewController.xib */,
+				3C68FAEB1E266D26006CBF89 /* Assets.xcassets */,
+				3C68FAED1E266D26006CBF89 /* LaunchScreen.storyboard */,
+				3C68FAF01E266D26006CBF89 /* Info.plist */,
+				3C68FADF1E266D26006CBF89 /* Supporting Files */,
+			);
+			path = AppnextNativeAdsSDKCarouselTest;
+			sourceTree = "<group>";
+		};
+		3C68FADF1E266D26006CBF89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C68FAE01E266D26006CBF89 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C68FADB1E266D26006CBF89 /* AppnextNativeAdsSDKCarouselTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C68FAF31E266D26006CBF89 /* Build configuration list for PBXNativeTarget "AppnextNativeAdsSDKCarouselTest" */;
+			buildPhases = (
+				3C68FAD81E266D26006CBF89 /* Sources */,
+				3C68FAD91E266D26006CBF89 /* Frameworks */,
+				3C68FADA1E266D26006CBF89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppnextNativeAdsSDKCarouselTest;
+			productName = AppnextNativeAdsSDKCarouselTest;
+			productReference = 3C68FADC1E266D26006CBF89 /* AppnextNativeAdsSDKCarouselTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C68FAD41E266D26006CBF89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Appnext;
+				TargetAttributes = {
+					3C68FADB1E266D26006CBF89 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C68FAD71E266D26006CBF89 /* Build configuration list for PBXProject "AppnextNativeAdsSDKCarouselTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C68FAD31E266D26006CBF89;
+			productRefGroup = 3C68FADD1E266D26006CBF89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C68FADB1E266D26006CBF89 /* AppnextNativeAdsSDKCarouselTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C68FADA1E266D26006CBF89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C68FAEF1E266D26006CBF89 /* LaunchScreen.storyboard in Resources */,
+				3C68FAEC1E266D26006CBF89 /* Assets.xcassets in Resources */,
+				3C0BCA301E2E63BA009945CD /* UICarouselViewController.xib in Resources */,
+				3C0BCA2B1E2E6306009945CD /* UILargeBannerViewController.xib in Resources */,
+				3C0BCA261E2E5F5A009945CD /* UIMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C68FAD81E266D26006CBF89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0BCA2F1E2E63BA009945CD /* UICarouselViewController.m in Sources */,
+				3C658B9F1E2770D600CB7AF9 /* iCarousel.m in Sources */,
+				3C658BB11E27C15E00CB7AF9 /* AppnextUIMoviePlayerControlsExample.m in Sources */,
+				3C68FAE41E266D26006CBF89 /* AppDelegate.m in Sources */,
+				3C0BCA2A1E2E6306009945CD /* UILargeBannerViewController.m in Sources */,
+				3C0BCA341E2E672B009945CD /* UIView+Toast.m in Sources */,
+				3C0BCA251E2E5F5A009945CD /* UIMainViewController.m in Sources */,
+				3C68FAE11E266D26006CBF89 /* main.m in Sources */,
+				3C9AFEFB1E2F9949002FF97B /* AppnextNativeAdsCarouselViewExample.m in Sources */,
+				3C6A5FA91E2CBD8B0031AFF0 /* AppnextExampleUtils.m in Sources */,
+				3C658BA91E279C9E00CB7AF9 /* AppnextUILargeBannerViewExample.m in Sources */,
+				3C658BB01E27C15E00CB7AF9 /* AppnextUIMoviePlayerControllerExample.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C68FAED1E266D26006CBF89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C68FAEE1E266D26006CBF89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C68FAF11E266D26006CBF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C68FAF21E266D26006CBF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C68FAF41E266D26006CBF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../AppnextNativeAdsSDK/include",
+					"$(PROJECT_DIR)/../ThirdParty/SDWebImage/include",
+				);
+				INFOPLIST_FILE = AppnextNativeAdsSDKCarouselTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../AppnextNativeAdsSDK",
+					"$(PROJECT_DIR)/../ThirdParty/SDWebImage",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appnext.sdk.AppnextNativeAdsSDKCarouselPublicTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C68FAF51E266D26006CBF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../AppnextNativeAdsSDK/include",
+					"$(PROJECT_DIR)/../ThirdParty/SDWebImage/include",
+				);
+				INFOPLIST_FILE = AppnextNativeAdsSDKCarouselTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../AppnextNativeAdsSDK",
+					"$(PROJECT_DIR)/../ThirdParty/SDWebImage",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appnext.sdk.AppnextNativeAdsSDKCarouselPublicTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C68FAD71E266D26006CBF89 /* Build configuration list for PBXProject "AppnextNativeAdsSDKCarouselTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C68FAF11E266D26006CBF89 /* Debug */,
+				3C68FAF21E266D26006CBF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C68FAF31E266D26006CBF89 /* Build configuration list for PBXNativeTarget "AppnextNativeAdsSDKCarouselTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C68FAF41E266D26006CBF89 /* Debug */,
+				3C68FAF51E266D26006CBF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C68FAD41E266D26006CBF89 /* Project object */;
+}
