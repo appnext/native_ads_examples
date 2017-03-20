@@ -2,7 +2,7 @@
 
 
 <img src="http://testing.appnext.com/github_images/carousel_example_native_ads_android.gif" height="300">
-![](http://testing.appnext.com/github_images/banner_example_native_ads_android.PNG)
+<img src="http://testing.appnext.com/github_images/banner_example_native_ads_android.PNG">
 
 ## About Appnext ##
 **Appnext is a leading mobile discovery platform, helping millions of users experience apps at the right moments throughout the day. Our platform provides mobile publishers and app marketers with end-to-end technology solutions for premium monetization and app growth.**
@@ -16,9 +16,10 @@ With a growing community of over 40,000 developers and 500M users worldwide, weâ
 ### General
 This GitHub page will present examples of Native Ads usage created by the Appnext development team. You can use these examples to understand how to use our Native Ads API.
 
-- Android Display banner 320x50 example - `Android/AppnextBanner`
-- Android Carousel example - `Android/AppnextCarousel`
-- iOS examples are coming soon
+- Android Classic Banner 320x50 Example - `Android/AppnextBanner`
+- Android Carousel Widget Example - `Android/AppnextCarousel`
+- iOS Clasic Banner 320x50 Example - `iOS/AppnextNativeAdsSDKBannerTest`
+- iOS Carousel Widget Example - `iOS/AppnextNativeAdsSDKCarouselTest`
 
 ###Guidelines
 - If you're cloning one of the Android examples as is, don't forget to clear your Gradle cache
