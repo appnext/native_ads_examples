@@ -21,7 +21,7 @@ This GitHub page will present examples of Native Ads usage created by the Appnex
 - iOS Clasic Banner 320x50 Example - `iOS/AppnextNativeAdsSDKBannerTest`
 - iOS Carousel Widget Example - `iOS/AppnextNativeAdsSDKCarouselTest`
 
-###Guidelines
+### Guidelines
 - If you're cloning one of the Android examples as is, don't forget to clear your Gradle cache
 - Generic Placement IDs are in use, don't forget to add your own placement IDs as defined in the Appnext self-service after you sign up
 
