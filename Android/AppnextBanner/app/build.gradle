@@ -25,5 +25,5 @@ dependencies {
 	compile 'com.google.android.gms:play-services-ads:10.2.0'
 	compile 'com.google.android.gms:play-services-location:10.2.0'
 
-	compile 'com.appnext.sdk:native-ads-sdk:2.0.0'
+	compile 'com.appnext.sdk:native-ads-sdk:2.0.1.455'
 }
