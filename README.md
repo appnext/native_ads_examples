@@ -23,7 +23,7 @@ This GitHub page will present examples of Native Ads usage created by the Appnex
 
 ### Guidelines
 - If you're cloning one of the Android examples as is, don't forget to clear your Gradle cache
-- Generic Placement IDs are in use, don't forget to add your own placement IDs as defined in the Appnext self-service after you sign up
+- Generic Placement IDs are in use. Don't forget to add your own placement IDs! Please follow the instructions in the Appnext self-service after you sign up.
 
 ## Join us now! ##
 Use the Native Ads SDK and start generating revenue. Join now!
