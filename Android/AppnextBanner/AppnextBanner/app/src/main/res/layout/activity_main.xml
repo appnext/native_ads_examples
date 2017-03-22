@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/activity_main"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="com.appnext.appnextbanner.MainActivity">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:gravity="center"
+		android:id="@+id/error"
+		android:visibility="gone"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp">
+
+		<LinearLayout
+			android:layout_alignParentBottom="true"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#f6f6f6"
+			android:id="@+id/banner_view">
+			<ImageView
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:id="@+id/icon"
+				android:layout_marginLeft="15dp"
+				android:layout_marginStart="15dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginEnd="5dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp"/>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="17sp"
+					android:textColor="#000000"
+					android:textStyle="bold"
+					android:paddingStart="3dp"
+					android:paddingEnd="3dp"
+					android:paddingLeft="3dp"
+					android:paddingRight="3dp"
+					android:id="@+id/title"
+					android:lines="1"
+					android:ellipsize="end"
+					android:text="app name"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="13sp"
+					android:textColor="#818285"
+					android:id="@+id/rating"
+					android:paddingStart="3dp"
+					android:paddingEnd="3dp"
+					android:paddingLeft="3dp"
+					android:paddingRight="3dp"
+					android:drawableRight="@drawable/star"
+					android:drawableEnd="@drawable/star"
+					android:text="4.3"/>
+
+			</LinearLayout>
+
+			<Button
+				android:layout_width="100dp"
+				android:layout_height="37dp"
+				android:id="@+id/install"
+				android:layout_gravity="center"
+				android:background="#8dc63f"
+				android:textColor="#ffffff"
+				android:textSize="15sp"
+				android:text="Install"/>
+
+		</LinearLayout>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/click"
+			android:background="@android:color/transparent"/>
+
+		<ImageView
+			android:layout_width="20dp"
+			android:layout_height="20dp"
+			android:paddingRight="5dp"
+			android:paddingBottom="5dp"
+			android:scaleType="fitXY"
+			android:id="@+id/privacy"
+			android:src="@drawable/privacy_icon"
+			android:layout_alignParentLeft="true"/>
+
+	</RelativeLayout>
+	
+</RelativeLayout>
