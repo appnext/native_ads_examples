@@ -131,7 +131,9 @@ public class MainActivity extends AppCompatActivity implements IAppnextAds {
 			}
 		});
 		appnextAPI.setCreativeType(AppnextAPI.TYPE_VIDEO);
-		appnextAPI.loadAds(new AppnextAdRequest().setCount(ADS_COUNT));
+		// In this example we're using the setCount function as part of the Carousel example implemention.
+        // If you want to load more ads, don't use the setCount function or set it to higher value: setCount(x)
+        appnextAPI.loadAds(new AppnextAdRequest().setCount(ADS_COUNT));
 	}
 
 	private void initView(final View view){
@@ -163,7 +165,7 @@ public class MainActivity extends AppCompatActivity implements IAppnextAds {
 			}
 		});
 	}
-
+	
 	private String getVideo(AppnextAd ad){
 		if(!ad.getVideoUrl().equals("")){
 			return ad.getVideoUrl();

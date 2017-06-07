@@ -4,14 +4,12 @@ import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.appnext.appnextsdk.API.AppnextAPI;
 import com.appnext.appnextsdk.API.AppnextAd;
@@ -63,6 +61,8 @@ public class MainActivity extends Activity {
 				findViewById(R.id.error).setVisibility(View.VISIBLE);
 			}
 		});
+        // In this example we're loading only one ad for the banner using the setCount(1) function in the ad request
+        // This is an optional usage. To load more ads either don't use the fucntion or call it with a different value: setCount(x)
 		appnextAPI.loadAds(new AppnextAdRequest().setCount(1));
 	}
 
