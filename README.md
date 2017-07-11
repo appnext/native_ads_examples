@@ -9,7 +9,7 @@ With a growing community of over 65,000 developers and 650M users worldwide, weâ
 
 ## Examples
 ### General
-This GitHub page will present examples of Native Ads usage created by the Appnext development team. You can use these examples to understand how to use our Native Ads API.
+This GitHub page will present examples of Native Ads usage created by the Appnext development team. You can use these examples to understand how to use our Native Ads SDK.
 
 - Android Classic Banner 320x50 Example - `Android/AppnextBanner`
 - Android Carousel Widget Example - `Android/AppnextCarousel`
