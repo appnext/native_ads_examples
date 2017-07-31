@@ -13,8 +13,8 @@ This GitHub page will present examples of Native Ads usage created by the Appnex
 
 - Android Classic Banner Example
 - Android Carousel Widget Example
-- Android In-Feed Ad Example 1 (Box) 
-- Android In-Feed Ad Example 2 (100% width)
+- Android In-Feed Ad Example 1 (300x250) 
+- Android In-Feed Ad Example 2 (Responsive - 100% width)
 - iOS Clasic Banner 320x50 Example - `iOS/AppnextNativeAdsSDKBannerTest`
 - iOS Carousel Widget Example - `iOS/AppnextNativeAdsSDKCarouselTest`
 
