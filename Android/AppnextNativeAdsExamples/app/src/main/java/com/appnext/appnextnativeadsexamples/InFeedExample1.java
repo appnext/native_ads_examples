@@ -22,6 +22,7 @@ import java.util.ArrayList;
 
 public class InFeedExample1 extends AppCompatActivity {
 
+    private NativeAd nativeAd;
     private NativeAdView nativeAdView;
     private ImageView imageView;
     private TextView textView, rating, description;
@@ -37,7 +38,9 @@ public class InFeedExample1 extends AppCompatActivity {
 
         Appnext.init(this);
         setViews();
-        NativeAd nativeAd = new NativeAd(this, "66f95906-de1e-4643-b953-b8bd30524882");
+
+        // Don't forget to change the placement ID to your own ID
+        nativeAd = new NativeAd(this, "66f95906-de1e-4643-b953-b8bd30524882");
         nativeAd.setPrivacyPolicyColor(PrivacyIcon.PP_ICON_COLOR_LIGHT);
         nativeAd.setAdListener(new NativeAdListener() {
             @Override
@@ -92,5 +95,11 @@ public class InFeedExample1 extends AppCompatActivity {
         viewArrayList = new ArrayList<>();
         viewArrayList.add(button);
         viewArrayList.add(mediaView);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        nativeAd.destroy();
     }
 }
