@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-		  package="com.appnext.examples">
+    package="com.appnext.appnextnativeadsexamples">
 
-	<application
-		android:allowBackup="true"
-		android:icon="@mipmap/ic_launcher"
-		android:label="@string/app_name"
-		android:roundIcon="@mipmap/ic_launcher_round"
-		android:supportsRtl="true"
-		android:theme="@style/AppTheme">
-		<activity android:name=".MainActivity">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN"/>
-				<category android:name="android.intent.category.LAUNCHER"/>
-			</intent-filter>
-		</activity>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-		<activity
-			android:name=".BannerActivity"
-			android:screenOrientation="portrait"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InFeedExample1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InFeedExample2"
+            android:screenOrientation="portrait" />
+    </application>
 
-		<activity
-			android:name=".CarouselActivity"
-			android:screenOrientation="portrait"/>
-
-		<activity
-			android:name=".InFeed1Activity"
-			android:screenOrientation="portrait"/>
-
-		<activity
-			android:name=".InFeed2Activity"
-			android:screenOrientation="portrait"/>
-	</application>
 
 </manifest>

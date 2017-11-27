@@ -1,44 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asaf.appnextnaviveads.MainActivity">
 
-	<ImageView
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:src="@drawable/appnext_logo"
-		android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/in_feed_1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView2"
+        android:text="In feed example 1" />
 
-		<LinearLayout
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			android:orientation="vertical"
-			android:gravity="center" >
+    <Button
+        android:id="@+id/in_feed_2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/in_feed_1_button"
+        android:layout_marginTop="10dp"
+        android:text="In feed example 2" />
 
-			<Button
-				android:layout_width="match_parent"
-				android:layout_height="50dp"
-				android:id="@+id/banner"
-				android:text="Classic Banner"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/appnext_logo" />
 
-			<Button
-				android:layout_width="match_parent"
-				android:layout_height="50dp"
-				android:id="@+id/carousel"
-				android:text="Carousel Widget"/>
-
-			<Button
-				android:layout_width="match_parent"
-				android:layout_height="50dp"
-				android:id="@+id/infeed1"
-				android:text="In Feed Example 1"/>
-
-			<Button
-				android:layout_width="match_parent"
-				android:layout_height="50dp"
-				android:id="@+id/infeed2"
-				android:text="In Feed Example 2"/>
-
-	</LinearLayout>
 </RelativeLayout>
