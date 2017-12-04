@@ -20,13 +20,16 @@ This GitHub page will present examples of Native Ads usage created by the Appnex
 - If you're cloning one of the Android examples as is, don't forget to clear your Gradle cache
 - Generic Placement IDs are in use. Don't forget to add your own placement IDs! Please follow the instructions in the Appnext self-service after you sign up.
 
+### Official Documentation
+Please reffer to Appnext Developers Hub, [https://developers.appnext.com](https://developers.appnext.com), for full and official documentation on how to integrate the native ads ad unit.
+
 ## Join us now! ##
 Use the Native Ads SDK and start generating revenue. Join now!
 
-For more SDK & Integration information & Support, please refer to [http://www.appnext.com](http://www.appnext.com)  or contact the Appnext support team at Support@appnext.com
+For more SDK & Integration information & Support, please refer to [http://www.appnext.com](https://www.appnext.com)  or contact the Appnext support team at Support@appnext.com
 
 ## Legal
-Using the example code in the repository is subject to Appnext terms of use and privacy policy ([link](http://www.appnext.com/policy.html))
+Using the example code in the repository is subject to Appnext terms of use and privacy policy ([link](https://www.appnext.com/policy.html))
 
 
 
