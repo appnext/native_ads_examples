@@ -41,7 +41,7 @@ public class InFeedExample2 extends AppCompatActivity {
 
         // Don't forget to change the placement ID to your own ID        
         nativeAd = new NativeAd(this, "5d32ae77-1949-4322-808e-c08705deec84");
-        nativeAd.setPrivacyPolicyColor(PrivacyIcon.PP_ICON_COLOR_DARK);
+        nativeAd.setPrivacyPolicyColor(PrivacyIcon.PP_ICON_COLOR_LIGHT);
         nativeAd.setPrivacyPolicyPosition(PrivacyIcon.PP_ICON_POSITION_BOTTOM_LEFT);
         nativeAd.setAdListener(new NativeAdListener() {
             @Override
