@@ -20,7 +20,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:27.1.1'
-    compile 'com.appnext.sdk:native-ads2:2.4.0.471'
+    compile 'com.appnext.sdk:native-ads2:2.4.2.471'
     compile 'com.google.android.gms:play-services-basement:15.0.1'
     compile 'com.google.android.gms:play-services-location:15.0.1'
 }
